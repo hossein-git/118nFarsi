@@ -1,0 +1,54 @@
+{
+    "document": {
+        "invoiceNumber": "فاکتور %invoiceNumber%",
+        "invoiceHeadline": "فاکتور %invoiceNumber%",
+        "stornoHeadline": "لغو٪stornoNumber٪ برای فاکتور٪invoiceNumber٪",
+        "stornoNumber": "شماره لغو %stornoNumber%",
+        "deliveryNoteNumber": "رسید %deliveryNoteNumber%",
+        "deliveryNoteHeadline": "رسید %deliveryNoteNumber% برای سفارش %orderNumber%",
+        "creditNoteNumber": "یادداشت اعتباری %deliveryNoteNumber%",
+        "creditNoteHeadline": "یادداشت اعتباری %creditNoteNumber% برای فاکتور شماره %invoiceNumber%",
+        "customerNumber": "مشنری %customerNumber%",
+        "date": "تاریخ: %date%",
+        "orderDate": "تاریخ سفارش: %orderDate%",
+        "deliveryDate": "تاریخ دریافت: %deliveryDate%",
+        "page": "صفحه %pageNumber%",
+        "orderNumber": "سفارش شماره‌: %orderNumber%",
+        "taxNumber": "مالیات شماره %taxNumber%",
+        "vatId": "مقررات مالیات بر ارزش افزوده شماره %vatId%",
+        "taxOffice": "اداره مالیات %taxOffice%",
+        "bankAccount": "حساب بانکی",
+        "bankIban": "شماره شبا: %bankIban%",
+        "bankBic": "BIC: %bankBic%",
+        "placeOfJurisdiction": "محل صلاحیت: %placeOfJurisdiction%",
+        "placeOfFulfillment": "محل صدور: %placeOfFulfillment%",
+        "ceo": "مدیر عامل",
+        "lineItems": {
+            "header": {
+                "position": "درجه.",
+                "label": "عنوان",
+                "tax": "مالیات بر ارزش افزوده",
+                "quantity": "تعداد",
+                "unitPrice": "قیمت محصول",
+                "productNumber": "شماره محصول",
+                "total": "جمع کل"
+            },
+            "tax": "به علاوه %taxRate%% مالیات بر ارزش افزوده:",
+            "total": "جمع کل:",
+            "totalNet": "جمع خالص کل:",
+            "shippingCosts": "هزینه ارسال"
+        },
+        "paymentShippingInfo": {
+            "paymentMethod": "روش پرداخت: %paymentMethod%",
+            "shippingMethod": "روش ارسال: %shippingMethod%",
+            "additionalInfo": "کالاهای تحویل شده تا زمان پرداخت کامل در مالکیت ما باقی می ماند."
+        }
+    },
+    "filter": {
+        "sortByNameAscending": "نام, اول به آخر",
+        "sortByNameDescending": "نام,آخر به اول",
+        "sortByPriceAscending": "قیمت ، صعودی",
+        "sortByPriceDescending": "قیمت ، نزولی",
+        "sortByScore": "نتایج برتر"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "name": "swag/i18n-farsi",
+    "description": "Language pack for Shopware 6: Farsi",
+    "version": "1",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hossein Haghparast ,Shopware"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "I18nFarsi\\": "src/"
+        }
+    },
+    "require": {
+        "shopware/core": "6.2.0-RC1 || ~6.2.0 || ~6.3.0"
+    },
+    "prefer-stable": true,
+    "extra": {
+        "shopware-plugin-class": "I18nFarsi\\I18nFarsi",
+        "copyright": "(c) by shopware AG",
+        "label": {
+            "de-DE": "Sprachpaket für Shopware 6: Persisch",
+            "en-GB": "Language pack for Shopware 6: Farsi"
+        },
+        "description":{
+            "de-DE": "Sprachpaket für Shopware 6: Persisch",
+            "en-GB": "Language pack for Shopware 6: Farsi"
+        }
+    }
+}
